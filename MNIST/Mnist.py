@@ -47,18 +47,6 @@ print("Accuracy test \n" ,y_pred1*100,"%")
 
 print("Accuracy test \n" ,model1.evaluate(x_test,y_test_new)[1]*100,"%")
 print("loss percentage test \n" ,model1.evaluate(x_test,y_test_new)[0]*100,"%")
-
-plt.figure(figsize=(12, 8))
-for i in range(10):
-    plt.plot(fpr[i], tpr[i], label=f'Class {i} (AUC = {roc_auc[i]:.2f})')
-plt.plot([0, 1], [0, 1], 'k--')
-plt.xlabel('False Positive Rate')
-plt.ylabel('True Positive Rate')
-plt.title('ROC Curve for Each Digit Class')
-plt.legend()
-plt.grid(True)
-plt.show()
-
 print("classification report \n" ,classification_report(y_test,y_pred))
 
 cm = confusion_matrix(y_test,y_pred)
