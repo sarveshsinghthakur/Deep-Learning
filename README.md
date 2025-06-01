@@ -64,6 +64,14 @@ Welcome to the **Deep-Learning** repository! This repo showcases various deep le
   - **Application**: Smart agriculture.
 </details>
 
+<details>
+  <summary><strong>😊 Emotion Detector</strong></summary>
+
+  - **Goal**: Detect human emotions (e.g., happy, sad, angry) from facial expressions.
+  - **Tech**: CNN, OpenCV, FER2013 dataset.
+  - **Highlights**: Real-time webcam-based emotion detection using facial features.
+</details>
+
 ---
 
 ## 🔧 Tech Stack
