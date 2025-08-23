@@ -57,6 +57,14 @@ Welcome to the **Deep-Learning** repository! This repo showcases various deep le
 </details>
 
 <details>
+  <summary><strong>People Detector</strong></summary>
+
+  - **Goal**: Detect no. of people In or Out.
+  - **Tech**: Opencv-python , ultralytics.
+  - **Concept**: Using vertical line to Track the number of Entry and Exit of people.
+</details>
+
+<details>
   <summary><strong>🌿 Plant Disease Detection</strong></summary>
 
   - **Goal**: Identify diseases in plant leaves from images.
