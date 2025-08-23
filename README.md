@@ -57,7 +57,7 @@ Welcome to the **Deep-Learning** repository! This repo showcases various deep le
 </details>
  
 <details>
-  <summary><strong>🚶 People Detector</strong></summary>
+  <summary><strong>🚶 Real-Time People Detection & Counting</strong></summary>
 
   - **Goal**: Detect no. of people In or Out.
   - **Tech**: Opencv-python , ultralytics.
