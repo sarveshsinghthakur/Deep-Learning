@@ -55,9 +55,9 @@ Welcome to the **Deep-Learning** repository! This repo showcases various deep le
   - **Tech**: LSTM, NLP preprocessing, word embeddings.
   - **Dataset**: Jigsaw Toxic Comment Classification.
 </details>
-
+ 
 <details>
-  <summary><strong>People Detector</strong></summary>
+  <summary><strong>🚶 People Detector</strong></summary>
 
   - **Goal**: Detect no. of people In or Out.
   - **Tech**: Opencv-python , ultralytics.
