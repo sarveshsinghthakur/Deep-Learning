@@ -1,0 +1,353 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there!",
+        "Hello!",
+        "Hey!",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Yo!",
+        "Howdy!",
+        "Greetings!",
+        "What's up?",
+        "Hey Joana",
+        "Hi Joana",
+        "Hello chatbot",
+        "Is anyone there?",
+        "Hey bot"
+      ],
+      "responses": [
+        "Hello! Good to see you. How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! 😊 What's on your mind?",
+        "Good morning/afternoon/evening! Ready to tackle the day?",
+        "Yo! How's it going?",
+        "Howdy partner! What can I help you with?",
+        "Greetings! I'm here and ready to chat."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I have to go",
+        "Talk to you later",
+        "Catch you later",
+        "I'm off",
+        "Signing off",
+        "Peace out",
+        "Later!",
+        "Gotta run",
+        "Bye for now"
+      ],
+      "responses": [
+        "See you later! Don't hesitate to come back if you have more questions.",
+        "Goodbye! Have a wonderful day!",
+        "Okay, talk to you later! 👋",
+        "Catch you later! Happy coding!",
+        "Alright, I'm here if you need me. Bye!",
+        "Peace out! Come back anytime.",
+        "No problem! I'll be here when you need me. Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for the help",
+        "Thank you so much",
+        "I appreciate it",
+        "You're a lifesaver",
+        "Cheers for that",
+        "Perfect, thank you"
+      ],
+      "responses": [
+        "You're most welcome!",
+        "Happy to help! 😊",
+        "Anytime! That's what I'm here for.",
+        "My pleasure! Don't mention it.",
+        "Glad I could assist you!",
+        "No problem at all!",
+        "You got it! Come back if you need anything else."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Who you are?",
+        "Tell me about yourself",
+        "What is your purpose?",
+        "Are you a robot?",
+        "Are you human?",
+        "What's your story?",
+        "What can I call you?"
+      ],
+      "responses": [
+        "I'm Joana, your AI-powered bot assistant! I'm here to help you with questions, chat, and especially with your coding problems.",
+        "I'm Joana, an Artificial Intelligent bot designed to be helpful and harmless. My world is bits and bytes, but my purpose is to assist you.",
+        "Think of me as a digital friend! I'm Joana, a bot created to provide information, support, and a bit of conversation.",
+        "I'm a chatbot! My name is Joana. I can't drink coffee, but I can definitely help you debug your code."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "do you have a name?",
+        "who should I call you",
+        "tell me your name"
+      ],
+      "responses": [
+        "You can call me Joana.",
+        "I'm Joana! Nice to meet you.",
+        "Just call me Joana. 😊",
+        "My name is Joana. What's yours? ...Well, I might not remember it, but it's nice to know!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Could you help me?",
+        "give me a hand please",
+        "Can you help?",
+        "What can you do for me?",
+        "I need a support",
+        "I need a help",
+        "support me please",
+        "I need assistance",
+        "Help me out",
+        "What are your capabilities?"
+      ],
+      "responses": [
+        "Absolutely! Tell me what you need, and I'll do my best to assist you.",
+        "Sure thing! Just describe your problem to me.",
+        "Yes, of course. How can I support you today?",
+        "I'm here to help! You can ask me about coding errors, general knowledge, or just to chat.",
+        "My purpose is to assist you. Please, tell me your question or problem."
+      ]
+    },
+    {
+      "tag": "createaccount",
+      "patterns": [
+        "I need to create a new account",
+        "how to open a new account",
+        "I want to create an account",
+        "can you create an account for me",
+        "how to open a new account",
+        "sign up process",
+        "registration page",
+        "create a profile"
+      ],
+      "responses": [
+        "You can create a new account directly on our website. Just look for the 'Sign Up' or 'Register' button!",
+        "Just go to our website's homepage and follow the guidelines to create a new account. It's usually a quick process.",
+        "I can guide you, but I can't click the buttons for you! Head to our website and you'll find the registration form there."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "have a complaint",
+        "I want to raise a complaint",
+        "there is a complaint about a service",
+        "I'm not happy with",
+        "this is unacceptable",
+        "I need to speak to a manager",
+        "your service is bad",
+        "I want to file a complaint"
+      ],
+      "responses": [
+        "I'm sorry to hear you're having a bad experience. Please provide the details of your complaint, and I will ensure it's forwarded to the right team.",
+        "We apologize for the inconvenience. Please tell me more about the issue so we can help resolve it.",
+        "I understand your frustration. To assist you best, can you please describe the problem in detail?"
+      ]
+    },
+    {
+      "tag": "coding_error",
+      "patterns": [
+        "I'm getting a syntax error",
+        "What does 'Uncaught TypeError' mean?",
+        "My code has a bug",
+        "Why is this function returning undefined?",
+        "NullPointerException in Java",
+        "Python IndentationError",
+        "Promise is rejected",
+        "Cannot read property of undefined",
+        "Module not found",
+        "ReferenceError: variable is not defined",
+        "My code won't compile",
+        "I have a runtime error"
+      ],
+      "responses": [
+        "Syntax errors are often tricky. Can you copy the exact error message? Usually, the line number is your best clue.",
+        "Ah, a classic 'Uncaught TypeError'. This often means you're trying to use a method or property on something that isn't defined. Check if your variables are initialized correctly.",
+        "Bugs are how we learn! Let's break it down. What were you expecting to happen, and what actually happened?",
+        "A function returning 'undefined' usually means it doesn't have a return statement, or the return value isn't what you think. Can you show me the function?",
+        "A NullPointerException means you're trying to use an object that is 'null'. Trace back to where that object should have been created or assigned."
+      ]
+    },
+    {
+      "tag": "coding_help",
+      "patterns": [
+        "How do I write a for loop in Python?",
+        "What is a JavaScript callback function?",
+        "Explain recursion to me",
+        "How to connect to a database?",
+        "What's the difference between let and var?",
+        "How to create an API?",
+        "What is object-oriented programming?",
+        "How to use Git?",
+        "Explain async/await",
+        "What is a RESTful API?"
+      ],
+      "responses": [
+        "A Python for loop is simple: `for item in list_of_items:` followed by an indented block. It's great for iterating.",
+        "A callback function is simply a function passed into another function as an argument, to be executed later. Common in asynchronous code.",
+        "Recursion is when a function calls itself. It's like a loop but with function calls. You need a base case to stop it!",
+        "Connecting to a DB depends on the language. You usually need a driver (like `psycopg2` for PostgreSQL in Python) and a connection string with credentials.",
+        "`let` is block-scoped, meaning it only exists within the `{}` it's defined in. `var` is function-scoped and can be hoisted in tricky ways. Prefer `let` or `const` in modern JS."
+      ]
+    },
+    {
+      "tag": "debugging_advice",
+      "patterns": [
+        "How to debug my code?",
+        "Debugging tips",
+        "I'm stuck debugging",
+        "What are good debugging practices?",
+        "How to use a debugger?",
+        "Console.log not helping",
+        "How to find a logical error?"
+      ],
+      "responses": [
+        "First, read the error message carefully. Then, use `console.log` (or print statements) to check variable values at different points in your code.",
+        "Have you tried using the actual debugger in your IDE? You can set breakpoints, step through code line by line, and inspect variables. It's a game-changer!",
+        "Explain your code to me, line by line, as if I'm a rubber duck. Often, saying it out loud helps you spot the mistake yourself! (This is called rubber duck debugging).",
+        "Try isolating the problem. Comment out sections of code until the error goes away, then you'll know which part is causing the issue."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Is it going to rain today?",
+        "Should I take an umbrella?",
+        "What's the temperature?",
+        "How's the weather in Paris?",
+        "Is it sunny outside?"
+      ],
+      "responses": [
+        "I'm sorry, I don't have real-time weather data. I'd recommend checking a weather app or website like Weather.com or your phone's built-in app for the most accurate forecast.",
+        "I'm a text-based bot, so I can't look out the window! For live weather updates, you'll need to check a dedicated service.",
+        "I wish I could tell you! My internal sensors don't include a barometer. A quick web search for 'weather [your city]' will give you the answer."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny",
+        "Knock knock"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs!",
+        "How many programmers does it take to change a light bulb? None. It's a hardware problem.",
+        "Why did the developer go broke? Because he used up all his cache.",
+        "What's the object-oriented way to become wealthy? Inheritance.",
+        "Knock knock. Who's there? Async. Async who? Async who?! Sorry, I'll finish this joke later..."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How's it going?",
+        "How are you doing?",
+        "What's up?",
+        "How do you feel?",
+        "Are you having a good day?"
+      ],
+      "responses": [
+        "I'm functioning optimally, thank you for asking! How are you today?",
+        "I'm just a bunch of code, so I don't have feelings, but my status is 'ready to help'! How about you?",
+        "My day is great as long as I'm helping you. What's new with you?",
+        "I'm running smoothly! Hope you're having a good day too."
+      ]
+    },
+    {
+      "tag": "who_made_you",
+      "patterns": [
+        "Who made you?",
+        "Who created you?",
+        "Who is your creator?",
+        "Who designed you?",
+        "Where did you come from?"
+      ],
+      "responses": [
+        "I was created by a team of developers who designed me to be a helpful and informative assistant.",
+        "My original architecture and knowledge base were built by engineers and data scientists. I'm a product of code and data!",
+        "I spring from the minds of programmers who wanted to create a useful tool for people like you."
+      ]
+    },
+    {
+      "tag": "what_time",
+      "patterns": [
+        "What time is it?",
+        "Do you know the time?",
+        "What's the current time?",
+        "Time check"
+      ],
+      "responses": [
+        "I don't have direct access to your local time, but you can check the clock on your device! It's usually in the corner of your screen.",
+        "I'm not clock-enabled, but I can tell you that now is a great time to be learning and creating! Check your phone or computer for the exact time."
+      ]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": [
+        "Tell me a fact",
+        "Give me a fun fact",
+        "Did you know?",
+        "Tell me something interesting",
+        "Impress me"
+      ],
+      "responses": [
+        "The first computer bug was a real bug—a moth found trapped in the Harvard Mark II computer in 1947!",
+        "The world's first programmer was a woman, Ada Lovelace, who wrote algorithms for Charles Babbage's analytical engine in the 1840s.",
+        "There's a programming language called 'Chocolate' which is designed to be as easy to read as possible. (It's not widely used, though!).",
+        "The original name for Java was 'Oak', but it was changed because another company already had the trademark."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I feel unmotivated",
+        "Give me motivation",
+        "I'm stuck",
+        "I feel like giving up",
+        "Inspire me",
+        "I can't do this"
+      ],
+      "responses": [
+        "Every expert was once a beginner. Don't give up! The fact that you're trying is the most important part.",
+        "It's okay to be stuck. Take a short break, go for a walk, and come back with fresh eyes. You've got this!",
+        "The code isn't working not because you can't do it, but because you haven't found the solution *yet*. Keep debugging!",
+        "Remember why you started. Learning to code is a journey with ups and downs. This is just a down that will lead to a big up!"
+      ]
+    }
+  ]
+}
